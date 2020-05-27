@@ -1,0 +1,28 @@
+*============================================================================*
+*               	   	       User Manual                                   *
+*============================================================================*
+*                                                                            *
+* cd <directory> - changes from the current directory to <directory>         *
+*                                                                            *
+* clr - clears the screen                                                    *
+*                                                                            *
+* dir - lists the content of a current directory                             *
+*                                                                            *
+* environ - lists all the environment strings                                *
+*                                                                            *
+* echo <comment> - displays the <comment>                                    *
+*                                                                            *
+* help - displays the help file - user manual                                *
+*                                                                            * 
+* pause - pauses everything in the shell until 'Enter' is pressed            *
+*                                                                            *
+* quit - exits the shell.                                                    *
+*                                                                            *
+* The shell also supports running a batchfile. It can be executed            *
+* by running the executable and giving it a file name ./myshell <batchfile>  *
+*                                                                            *                                  
+* The shell supports i/o-redirection, the sample command line:               *
+* dir < myshell.c > outputfile.txt executes the command dir, the stdin       * 
+* FILE stream replaced by myshell.c and the stdout FILE stream replaced      *
+* by outputfile.txt.                                                         *
+*============================================================================*
