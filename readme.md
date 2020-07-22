@@ -1,4 +1,4 @@
-# c-simple-shell
+# simple-shell
 
 The Shell or Command Line Interpreter is the fundamental user interface to an Operating System.
 The shell interprets the input, takes appropriate action, and finally prompts for more input.
